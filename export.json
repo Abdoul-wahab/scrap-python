@@ -1,1 +1,290 @@
-{"db": [{"teams": "Laval \u00b7 Bastia-B.", "link": "Laval \u00b7 Bastia-B.", "image": "it.png", "time": "19:00", "league": "National"}, {"teams": "Bourg-P. \u00b7 Avranches", "link": "Bourg-P. \u00b7 Avranches", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "Red Star \u00b7 S. Briochin", "link": "Red Star \u00b7 S. Briochin", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "S\u00e8te \u00b7 Le Mans", "link": "S\u00e8te \u00b7 Le Mans", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "Ch\u00e2teauroux \u00b7 Cr\u00e9teil", "link": "Ch\u00e2teauroux \u00b7 Cr\u00e9teil", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "Sedan \u00b7 Cholet", "link": "Sedan \u00b7 Cholet", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "Chambly \u00b7 Orl\u00e9ans", "link": "Chambly \u00b7 Orl\u00e9ans", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "Boulogne \u00b7 Annecy", "link": "Boulogne \u00b7 Annecy", "image": "it.png", "time": "19:00", "league": "\u00a0 \u00a0\u00bb\u00a0"}, {"teams": "Hertha \u00b7 Bochum", "link": "Hertha \u00b7 Bochum", "image": "it.png", "time": "20:30", "league": "Bundesliga"}, {"teams": "Birmingham \u00b7 Sheffield U.", "link": "Birmingham \u00b7 Sheffield U.", "image": "it.png", "time": "20:45", "league": "Championship"}, {"teams": "Fleury \u00b7 Montpellier F\u00e9m.", "link": "Fleury \u00b7 Montpellier F\u00e9m.", "image": "it.png", "time": "20:45", "league": "D1 f\u00e9minine"}, {"teams": "Manchester U. \u00b7 Middlesbrough", "link": "Manchester U. \u00b7 Middlesbrough", "image": "it.png", "time": "21:00", "league": "FA Cup"}, {"teams": "Getafe \u00b7 Levante", "link": "Getafe \u00b7 Levante", "image": "it.png", "time": "21:00", "league": "Liga"}, {"teams": "Almeria \u00b7 Ibiza", "link": "Almeria \u00b7 Ibiza", "image": "it.png", "time": "21:00", "league": "D2 Espagne"}, {"teams": "Marseille OM \u00b7 Angers", "link": "Marseille OM \u00b7 Angers", "image": "it.png", "time": "21:00", "league": "Ligue 1"}]}
+{
+    "db": [{
+            "teams": "Chelsea \u00b7 Plymouth",
+            "link": "Chelsea \u00b7 Plymouth",
+            "image": "it.png",
+            "time": "13:30",
+            "league": "FA Cup"
+        },
+        {
+            "teams": "Kidderminster \u00b7 West Ham",
+            "link": "Kidderminster \u00b7 West Ham",
+            "image": "it.png",
+            "time": "13:30",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Elche \u00b7 Alav\u00e8s",
+            "link": "Elche \u00b7 Alav\u00e8s",
+            "image": "it.png",
+            "time": "14:00",
+            "league": "Liga"
+        },
+        {
+            "teams": "Guingamp \u00b7 Paris PSG F\u00e9m.",
+            "link": "Guingamp \u00b7 Paris PSG F\u00e9m.",
+            "image": "it.png",
+            "time": "14:30",
+            "league": "D1 f\u00e9minine"
+        },
+        {
+            "teams": "Paris FC \u00b7 Saint-Etienne F\u00e9m.",
+            "link": "Paris FC \u00b7 Saint-Etienne F\u00e9m.",
+            "image": "it.png",
+            "time": "14:30",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Dijon FCO \u00b7 Soyaux F\u00e9m.",
+            "link": "Dijon FCO \u00b7 Soyaux F\u00e9m.",
+            "image": "it.png",
+            "time": "14:30",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Roma \u00b7 Genoa",
+            "link": "Roma \u00b7 Genoa",
+            "image": "it.png",
+            "time": "15:00",
+            "league": "Serie A"
+        },
+        {
+            "teams": "Toulouse \u00b7 Dijon FCO",
+            "link": "Toulouse \u00b7 Dijon FCO",
+            "image": "it.png",
+            "time": "15:00",
+            "league": "Ligue 2"
+        },
+        {
+            "teams": "Stuttgart \u00b7 E. Francfort",
+            "link": "Stuttgart \u00b7 E. Francfort",
+            "image": "it.png",
+            "time": "15:30",
+            "league": "Bundesliga"
+        },
+        {
+            "teams": "Bielefeld \u00b7 Monchengladbach",
+            "link": "Bielefeld \u00b7 Monchengladbach",
+            "image": "it.png",
+            "time": "15:30",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Cologne \u00b7 Fribourg",
+            "link": "Cologne \u00b7 Fribourg",
+            "image": "it.png",
+            "time": "15:30",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Manchester C. \u00b7 Fulham",
+            "link": "Manchester C. \u00b7 Fulham",
+            "image": "it.png",
+            "time": "16:00",
+            "league": "FA Cup"
+        },
+        {
+            "teams": "Everton \u00b7 Brentford",
+            "link": "Everton \u00b7 Brentford",
+            "image": "it.png",
+            "time": "16:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Wolverhampton \u00b7 Norwich",
+            "link": "Wolverhampton \u00b7 Norwich",
+            "image": "it.png",
+            "time": "16:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Reims \u00b7 Issy F\u00e9m.",
+            "link": "Reims \u00b7 Issy F\u00e9m.",
+            "image": "it.png",
+            "time": "16:35",
+            "league": "D1 f\u00e9minine"
+        },
+        {
+            "teams": "Fenerbahce \u00b7 Basaksehir",
+            "link": "Fenerbahce \u00b7 Basaksehir",
+            "image": "it.png",
+            "time": "17:00",
+            "league": "Champ. Turquie"
+        },
+        {
+            "teams": "Saint-Etienne \u00b7 Montpellier",
+            "link": "Saint-Etienne \u00b7 Montpellier",
+            "image": "it.png",
+            "time": "17:00",
+            "league": "Ligue 1"
+        },
+        {
+            "teams": "Inter \u00b7 Milan",
+            "link": "Inter \u00b7 Milan",
+            "image": "it.png",
+            "time": "18:00",
+            "league": "Serie A"
+        },
+        {
+            "teams": "Bayern \u00b7 Leipzig",
+            "link": "Bayern \u00b7 Leipzig",
+            "image": "it.png",
+            "time": "18:30",
+            "league": "Bundesliga"
+        },
+        {
+            "teams": "Celta Vigo \u00b7 Rayo V.",
+            "link": "Celta Vigo \u00b7 Rayo V.",
+            "image": "it.png",
+            "time": "18:30",
+            "league": "Liga"
+        },
+        {
+            "teams": "Swansea \u00b7 Blackburn",
+            "link": "Swansea \u00b7 Blackburn",
+            "image": "it.png",
+            "time": "18:30",
+            "league": "Championship"
+        },
+        {
+            "teams": "Burnley \u00b7 Watford",
+            "link": "Burnley \u00b7 Watford",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "Premier League"
+        },
+        {
+            "teams": "Multiplex Ligue 2",
+            "link": "Multiplex Ligue 2",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "Ligue 2"
+        },
+        {
+            "teams": "Nancy \u00b7 Caen",
+            "link": "Nancy \u00b7 Caen",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Guingamp \u00b7 Auxerre",
+            "link": "Guingamp \u00b7 Auxerre",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Sochaux \u00b7 Amiens SC",
+            "link": "Sochaux \u00b7 Amiens SC",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Bastia SC \u00b7 Pau",
+            "link": "Bastia SC \u00b7 Pau",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "N\u00eemes \u00b7 Dunkerque",
+            "link": "N\u00eemes \u00b7 Dunkerque",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Rodez \u00b7 Valenciennes",
+            "link": "Rodez \u00b7 Valenciennes",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Niort \u00b7 Le Havre",
+            "link": "Niort \u00b7 Le Havre",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "Quevilly \u00b7 Grenoble",
+            "link": "Quevilly \u00b7 Grenoble",
+            "image": "it.png",
+            "time": "19:00",
+            "league": "\u00a0 \u00a0\u00bb\u00a0"
+        },
+        {
+            "teams": "PSV \u00b7 AZ Alkmaar",
+            "link": "PSV \u00b7 AZ Alkmaar",
+            "image": "it.png",
+            "time": "20:00",
+            "league": "Champ. Pays-Bas"
+        },
+        {
+            "teams": "Cameroun \u00b7 Burkina",
+            "link": "Cameroun \u00b7 Burkina",
+            "image": "it.png",
+            "time": "20:00",
+            "league": "CAN Finale 3e p."
+        },
+        {
+            "teams": "St-Pauli \u00b7 Paderborn",
+            "link": "St-Pauli \u00b7 Paderborn",
+            "image": "it.png",
+            "time": "20:30",
+            "league": "D2 Allemagne"
+        },
+        {
+            "teams": "Fiorentina \u00b7 Lazio",
+            "link": "Fiorentina \u00b7 Lazio",
+            "image": "it.png",
+            "time": "20:45",
+            "league": "Serie A"
+        },
+        {
+            "teams": "Anvers \u00b7 U. St-Gilloise",
+            "link": "Anvers \u00b7 U. St-Gilloise",
+            "image": "it.png",
+            "time": "20:45",
+            "league": "Champ. Belgique"
+        },
+        {
+            "teams": "Tottenham \u00b7 Brighton",
+            "link": "Tottenham \u00b7 Brighton",
+            "image": "it.png",
+            "time": "21:00",
+            "league": "FA Cup"
+        },
+        {
+            "teams": "Osasuna \u00b7 FC S\u00e9ville",
+            "link": "Osasuna \u00b7 FC S\u00e9ville",
+            "image": "it.png",
+            "time": "21:00",
+            "league": "Liga"
+        },
+        {
+            "teams": "Monaco \u00b7 Lyon OL",
+            "link": "Monaco \u00b7 Lyon OL",
+            "image": "it.png",
+            "time": "21:00",
+            "league": "Ligue 1"
+        },
+        {
+            "teams": "C. Am\u00e9rica \u00b7 San Luis P.",
+            "link": "C. Am\u00e9rica \u00b7 San Luis P.",
+            "image": "it.png",
+            "time": "02:00",
+            "league": "Liga MX"
+        },
+        {
+            "teams": "C. Am\u00e9rica \u00b7 San Luis P.",
+            "link": "C. Am\u00e9rica \u00b7 San Luis P.",
+            "image": "",
+            "time": "",
+            "league": ""
+        }
+    ]
+}

@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
 import datetime
-import sys
 import json
+import sys
 
 
 matchDate=input("Entrez une date (au format jj-mm-aa ou jj/mm/aa) : ")
@@ -29,12 +29,13 @@ file.write('''<!DOCTYPE html>
     <title>Python Parsing</title>
 </head>
 <body>
-<div class="container mt-2">''')
+<div class="container">
+<div class="row row-cols-2 mt-2">''')
 
 baseURL = 'https://www.footao.tv/'
 page = requests.get(baseURL)
 soupdata = BeautifulSoup(page.content, "html.parser")
-results = soupdata.find(id='pjr')
+results = soupdata.find("section", attrs={"id":id})
 
 data = []
 
@@ -46,7 +47,10 @@ for result in results.find_all("div"):
     image = result.find("img", class_="im")
 
     imageSrc = ''
-
+    linkHref = ''
+    timeText = ''
+    leagueText = ''
+    leagueText = ''
 
     if teams:
         teamsText = teams.text
@@ -79,7 +83,7 @@ for result in results.find_all("div"):
 
     file.write(f'''
 
-        <div class="card mt-2" style="width: 18rem;">
+        <div class="card col-6 mt-2" style="width: 18rem;">
             <div class="card-header">
                 {leagueText}
             </div>
@@ -95,6 +99,7 @@ for result in results.find_all("div"):
 
 
 file.write(f'''</div>
+</div>
 </body>
 </html>''')
 
@@ -106,4 +111,4 @@ with open('export.json', 'w') as outfile:
 
 
 
-    # sys.exit()
+# sys.exit()
