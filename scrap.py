@@ -33,11 +33,7 @@ file.write('''<!DOCTYPE html>
 baseURL = 'https://www.footao.tv/'
 page = requests.get(baseURL)
 soupdata = BeautifulSoup(page.content, "html.parser")
-results = soupdata.find(id='{id}')
-
-print(results)
-
-sys.exit()
+results = soupdata.find(id='pjr')
 
 
 
