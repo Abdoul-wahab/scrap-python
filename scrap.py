@@ -83,7 +83,7 @@ for result in results.find_all("div"):
 
     file.write(f'''
 
-        <div class="card col-6 mt-2" style="width: 18rem;">
+        <div class="card col-6 m-2" style="width: 18rem;">
             <div class="card-header">
                 {leagueText}
             </div>
@@ -108,7 +108,5 @@ json_data = {'db' : data}
 
 with open('export.json', 'w') as outfile:
     json.dump(json_data, outfile)
-
-
 
 # sys.exit()
