@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 import datetime
 import sys
+import json
 
 
 matchDate=input("Entrez une date (au format jj-mm-aa ou jj/mm/aa) : ")
@@ -35,7 +36,7 @@ page = requests.get(baseURL)
 soupdata = BeautifulSoup(page.content, "html.parser")
 results = soupdata.find(id='pjr')
 
-
+data = []
 
 for result in results.find_all("div"):
     teams = result.find("a", class_="rc")
@@ -43,8 +44,6 @@ for result in results.find_all("div"):
     link = result.find("a", class_="str")
     league = result.find("span", class_="ap")
     image = result.find("img", class_="im")
-    
-    # print('image => ', teamsText)
 
     imageSrc = ''
 
@@ -64,6 +63,14 @@ for result in results.find_all("div"):
 
     if league:
         leagueText = league.text
+
+    data.append({
+        'teams' : teamsText,
+        'link' : teamsText,
+        'image' : imageSrc,
+        'time' : timeText,
+        'league' : leagueText,
+    }) 
 
     # print('teams => ', teamsText)
     # print('time => ', timeText)
@@ -90,6 +97,12 @@ for result in results.find_all("div"):
 file.write(f'''</div>
 </body>
 </html>''')
+
+
+json_data = {'db' : data}
+
+with open('json_data.json', 'w') as outfile:
+    json.dump(json_data, outfile)
 
 
 
