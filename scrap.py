@@ -87,7 +87,7 @@ for result in results.find_all("div"):
             <div class="card-body">
                 <h5 class="card-title">{teamsText}</h5>
                 <p class="card-text">{time}</p>
-                <a href="{linkHref}" class="btn btn-primary">Regarder</a>
+                <a target="_bank" href="{linkHref}" class="btn btn-primary">Regarder</a>
             </div>
         </div>
         '''
@@ -101,7 +101,7 @@ file.write(f'''</div>
 
 json_data = {'db' : data}
 
-with open('json_data.json', 'w') as outfile:
+with open('export.json', 'w') as outfile:
     json.dump(json_data, outfile)
 
 
